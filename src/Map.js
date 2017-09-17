@@ -12,6 +12,7 @@ const Map = (props) => {
     const blueCircle = circleMarker('3b5998');
     const redCircle = circleMarker('ff0000');
     const yellowCircle = circleMarker('ffff00');
+
     const generateMarkersFeatureGroup = (response) => {
         var group = [];
         for (var i = 0; i < response.results.length; i++) {

@@ -3,8 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="navbar">
-    <i className="fa fa-bolt" aria-hidden="true"></i>
-    <span style={{fontSize: "0.8em", fontWeight: "bold", padding: "0.5em"}}>Shop your next job</span>
+    <span style={{fontSize: "0.7em", fontWeight: "bold", padding: "0.7em", fontFamily: "'Lobster', cursive"}}>DreamMapper</span>
     </div>
     )
 }
