@@ -4,7 +4,8 @@ import jobSearch from "./PositionSearch";
 
 const Map = (props) => {
     const {
-        location
+        location,
+        home
     } = props;
     // Hooks to external mapquest file
     const L = window.L;
@@ -13,10 +14,18 @@ const Map = (props) => {
         primaryColor: color,
         shadow: true
     });
-    const blueCircle = circleMarker('3b5998');
+    // const blueCircle = circleMarker('3b5998');
     const redCircle = circleMarker('ff0000');
-    const yellowCircle = circleMarker('ffff00');
+    // const yellowCircle = circleMarker('ffff00');
     
+    const routeToWork = (from, to) => {
+        var directions = L.mapquest.directions();
+        
+        directions.route({
+            start: from,
+            end: to
+        });
+    };
     const generateMarkersFeatureGroup = (response) => {
         var group = [];
         for (var i = 0; i < response.results.length; i++) {
@@ -60,14 +69,12 @@ const Map = (props) => {
 
     // Render the map
     L.mapquest.geocoding().geocode(location, createMap);
-
-    var directions = L.mapquest.directions();
-
-    directions.route({
-        start: location[0],
-        end: location[1]
-    });
-    jobSearch(10.0, 11.00, 20.0, 22.00, ['qa'], 'Bobby');
+    
+    console.log(home);
+    if(home) {
+        routeToWork(home, location[2]);
+    }
+    // jobSearch(10.0, 11.00, 20.0, 22.00, ['qa'], 'Bobby');
 
     return(
         <div
