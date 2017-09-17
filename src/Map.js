@@ -1,5 +1,6 @@
 import React from "react";
 import mapKey from "./keys";
+import jobSearch from "./PositionSearch";
 
 const Map = (props) => {
     const L = window.L;
@@ -26,6 +27,8 @@ const Map = (props) => {
     L.mapquest.key = mapKey;
 
     L.mapquest.geocoding().geocode(location, createMap);
+
+    //jobSearch(10.0, 11.00, 20.0, 22.00, ['qa'], 'Bobby');
 
     return(
         <div
