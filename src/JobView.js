@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import data from "./demo-data/testdata-austintx";
 import RouteCommute from "./RouteCommute";
+import SkyLight from 'react-skylight';
 
 class JobView extends Component {
   state = {
@@ -36,13 +37,18 @@ class JobView extends Component {
       fontWeight: this.state.jobPostView ? "bold" : "normal",
       borderBottom: this.state.jobPostView ? "1px solid cadetblue" : "none"
     };
+    const modal = {
+      height: "550px",
+      marginTop: "-300px",
+      marginLeft: "-35%"
+    };
 
     return (
       <div
         style={{
           padding: "0 20px",
           width: "50%",
-          height: "530px",
+          height: "100vh",
           overflow: "scroll"
         }}
       >
@@ -67,7 +73,10 @@ class JobView extends Component {
                 __html: data.hits[this.props.jobIdx]._source.description
               }}
             />
-            <button>Apply for Job Post</button>
+            <button onClick={() => this.refs.simpleDialog.show()}>Apply for Job Post</button>
+            <SkyLight dialogStyles={modal} hideOnOverlayClicked ref="simpleDialog">
+              <iframe style={{ width: "100%", height: "95%", overflow: "scroll" }} src={"http://localhost:3000/"} />
+            </SkyLight>
           </div>
         ) : (
           <div style={{ padding: "20px" }}>
