@@ -9,11 +9,14 @@ const Map = (props) => {
     // Hooks to external mapquest file
     const L = window.L;
 
-    const circleMarker = (color) => L.mapquest.icons.circle({primaryColor: color});
+    const circleMarker = (color) => L.mapquest.icons.circle({
+        primaryColor: color,
+        shadow: true
+    });
     const blueCircle = circleMarker('3b5998');
     const redCircle = circleMarker('ff0000');
     const yellowCircle = circleMarker('ffff00');
-
+    
     const generateMarkersFeatureGroup = (response) => {
         var group = [];
         for (var i = 0; i < response.results.length; i++) {
@@ -36,6 +39,8 @@ const Map = (props) => {
             layers: L.mapquest.tileLayer('map'),
             zoom: 14
         });
+
+        // Add controls to the map
         map.addControl(L.mapquest.control());
         // Generate the feature group containing markers from the geocoded locations
         var featureGroup = generateMarkersFeatureGroup(response);
@@ -44,15 +49,24 @@ const Map = (props) => {
         featureGroup.addTo(map);
         map.fitBounds(featureGroup.getBounds());
     };
+    // Map size
     const divStyle = {
         width: "100%",
         height: "660px"
     };
 
+    // Add API key
     L.mapquest.key = mapKey;
 
+    // Render the map
     L.mapquest.geocoding().geocode(location, createMap);
 
+    var directions = L.mapquest.directions();
+
+    directions.route({
+        start: location[0],
+        end: location[1]
+    });
     jobSearch(10.0, 11.00, 20.0, 22.00, ['qa'], 'Bobby');
 
     return(
