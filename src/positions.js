@@ -1,4 +1,4 @@
-[
+const data = [
 {
     "id": "06a9b816-9a7b-11e7-981f-e1fc42595697",
     "created_at": "Sat Sep 16 01:05:15 UTC 2017",
@@ -90,3 +90,5 @@
     "company_logo": "http://github-jobs.s3.amazonaws.com/e23ec502-88f5-11e7-9fde-0b563efc42f6.png",
     "url": "http://jobs.github.com/positions/f7197f3a-88f5-11e7-9a7c-55390049478c"
 }]
+
+export default data;
