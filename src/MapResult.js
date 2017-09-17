@@ -26,7 +26,7 @@ const MapResult = (props) => {
   return(
     <div className="map-result">
       <Map
-        location={location}/>
+        location={location} />
     </div>
   );
 };
