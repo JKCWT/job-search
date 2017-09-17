@@ -53,7 +53,7 @@ const Map = (props) => {
 
     L.mapquest.geocoding().geocode(location, createMap);
 
-    //jobSearch(10.0, 11.00, 20.0, 22.00, ['qa'], 'Bobby');
+    jobSearch(10.0, 11.00, 20.0, 22.00, ['qa'], 'Bobby');
 
     return(
         <div
