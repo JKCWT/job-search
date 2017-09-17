@@ -6,10 +6,10 @@ import './App.css';
 
 class App extends Component {
 
-    state = {
+  state = {
     showResult: false, 
     currentValue: ""
-  }
+  };
 
   handleSubmit = event => {    
     event.preventDefault();
@@ -29,9 +29,13 @@ class App extends Component {
       <div>
         <Navbar />
         {this.state.showResult ? 
-          <SearchResult /> 
+          <SearchResult
+            searchQuery={this.state.currentValue}/> 
           : 
-          <Home handleSubmit={this.handleSubmit} handleChange={this.handleChange} currentValue={this.state.currentValue}/>
+          <Home 
+            handleSubmit={this.handleSubmit} 
+            handleChange={this.handleChange} 
+            currentValue={this.state.currentValue}/>
         }
       </div>
     );

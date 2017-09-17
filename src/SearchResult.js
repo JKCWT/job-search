@@ -3,6 +3,7 @@ import MapResult from "./MapResult";
 import Results from "./Results";
 import JobView from "./JobView";
 
+
 class SearchResult extends Component {
   state = {
     isJobView: false
