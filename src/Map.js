@@ -14,14 +14,18 @@ const Map = (props) => {
     };
     const divStyle = {
         width: "100%",
-        height: "530px"
+        height: "640px"
+    };
+    const location = {
+        street: '1 City Hall Square',
+        city: 'Boston',
+        state: 'MA',
+        postalCode: '02201'
     };
 
     L.mapquest.key = mapKey;
 
-    L.mapquest.geocoding().geocode({
-        postalCode: '94030'
-    }, createMap);
+    L.mapquest.geocoding().geocode(location, createMap);
 
     return(
         <div
