@@ -7,7 +7,7 @@ class MapResult extends Component {
 
   render() {
     return(
-      <div>This is the map</div>
+      <div className="map-result">This is the map</div>
       );
   }
 }

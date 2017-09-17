@@ -4,7 +4,7 @@ import Results from "./Results";
 
 const SearchResult = () => {
   return (
-    <div>
+    <div className="search-result">
       <MapResult />
       <Results />
     </div>
