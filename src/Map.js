@@ -8,10 +8,10 @@ const Map = (props) => {
     // Hooks to external mapquest file
     const L = window.L;
 
-
-    const blueCircle = L.mapquest.icons.circle({
-        primaryColor: '#3b5998'
-    });
+    const circleMarker = (color) => L.mapquest.icons.circle({primaryColor: color});
+    const blueCircle = circleMarker('3b5998');
+    const redCircle = circleMarker('ff0000');
+    const yellowCircle = circleMarker('ffff00');
     const generateMarkersFeatureGroup = (response) => {
         var group = [];
         for (var i = 0; i < response.results.length; i++) {
@@ -19,14 +19,13 @@ const Map = (props) => {
             var locationLatLng = location.latLng;
 
             // Create a marker for each location
-            var marker = L.marker(locationLatLng, {icon: blueCircle})
+            var marker = L.marker(locationLatLng, {icon: redCircle})
                 .bindPopup(location.adminArea5 + ', ' + location.adminArea3);
 
             group.push(marker);
         }
         return L.featureGroup(group);
     };
-
     const createMap = (error, response) => {
         var location = response.results[0].locations[0];
         var latLng = location.displayLatLng;
@@ -38,7 +37,7 @@ const Map = (props) => {
         map.addControl(L.mapquest.control());
         // Generate the feature group containing markers from the geocoded locations
         var featureGroup = generateMarkersFeatureGroup(response);
-    
+
         // Add markers to the map and zoom to the features
         featureGroup.addTo(map);
         map.fitBounds(featureGroup.getBounds());
