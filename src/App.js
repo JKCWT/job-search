@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Navbar from "./Navbar";
+import Home from "./Home";
+import SearchResult from "./SearchResult";
 import './App.css';
 
 class App extends Component {
+
+    state = {
+    showResult: false
+  }
+
+  handleSubmit = event => {
+    this.setState({
+      showResult: true
+    })
+  }
+
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <Navbar />
+        {this.state.showResult ? <SearchResult /> : <Home handleSubmit={this.handleSubmit}/>}
       </div>
     );
   }
