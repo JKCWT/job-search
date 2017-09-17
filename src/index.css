@@ -20,6 +20,12 @@ body {
 
 .results {
   width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 530px;
+  border: 1px solid #ccc;
+  overflow: scroll;
 }
 
 input {

@@ -1,4 +1,4 @@
-{
+var data = {
   "hits": [
     {
       "_index": "item",
@@ -1154,3 +1154,5 @@
     }
   ]
 }
+
+export default data;

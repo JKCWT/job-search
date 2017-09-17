@@ -6,9 +6,9 @@ class Home extends Component {
     return (
       <div>
         <img style={{zIndex: "-10", position: "absolute"}} width="100%" src="assets/typewriter.jpg"/>
-        <form onSubmit={this.props.handleSubmit} style={{margin: "auto"}}>
-          <input value={this.props.currentValue} placeholder="Enter your zipcode" onChange={this.props.handleChange}/>
-          <button>SEARCH!</button>
+        <form onSubmit={this.props.handleSubmit} style={{textAlign: "center"}}>
+          <input value={this.props.currentValue} placeholder="Enter the city or zip code your next job is going to be" onChange={this.props.handleChange}/>
+          <button>SEARCH</button>
         </form>
       </div>
       );
