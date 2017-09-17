@@ -67,7 +67,10 @@ const Map = (props) => {
         start: location[0],
         end: location[1]
     });
-    jobSearch(10.0, 11.00, 20.0, 22.00, ['qa'], 'Bobby');
+
+    jobSearch(10.0, 11.00, 20.0, 22.00, ['qa'], 'Bobby').then(function (response) {
+        console.info(response);
+    });
 
     return(
         <div
