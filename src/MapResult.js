@@ -1,15 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
+import Map from "./Map";
 
-class MapResult extends Component {
-  state = {
+const MapResult = (props) => {
 
-  }
-
-  render() {
-    return(
-      <div>This is the map</div>
-      );
-  }
-}
+  return(
+    <Map/>
+  );
+};
 
 export default MapResult;
