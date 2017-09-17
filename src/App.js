@@ -7,13 +7,20 @@ import './App.css';
 class App extends Component {
 
     state = {
-    showResult: false
+    showResult: false, 
+    currentValue: ""
   }
 
-  handleSubmit = event => {
+  handleSubmit = event => {    
     event.preventDefault();
     this.setState({
       showResult: true
+    })
+  }
+
+  handleChange = event => {
+    this.setState({
+      currentValue: event.target.value
     })
   }
 
@@ -21,7 +28,11 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        {this.state.showResult ? <SearchResult /> : <Home handleSubmit={this.handleSubmit}/>}
+        {this.state.showResult ? 
+          <SearchResult /> 
+          : 
+          <Home handleSubmit={this.handleSubmit} handleChange={this.handleChange} currentValue={this.state.currentValue}/>
+        }
       </div>
     );
   }
