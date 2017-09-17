@@ -75,7 +75,11 @@ class JobView extends Component {
             />
             <button onClick={() => this.refs.simpleDialog.show()}>Apply for Job Post</button>
             <SkyLight dialogStyles={modal} hideOnOverlayClicked ref="simpleDialog">
-              <iframe style={{ width: "100%", height: "95%", overflow: "scroll" }} src={"http://localhost:3000/"} />
+              <iframe 
+                style={{ width: "100%", height: "95%", overflow: "scroll" }} 
+                frameBorder="0"
+                src={"http://localhost:3000/index.html?username=Y2luZHkwMDc&curNode=job-center"} 
+              />
             </SkyLight>
           </div>
         ) : (
