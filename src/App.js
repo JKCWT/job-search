@@ -11,6 +11,7 @@ class App extends Component {
   }
 
   handleSubmit = event => {
+    event.preventDefault();
     this.setState({
       showResult: true
     })
