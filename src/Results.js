@@ -22,6 +22,7 @@ const Results = props => {
               textAlign: "center"
             }}
           >
+              <img src={entry._source.logo} />
             <div style={{ fontSize: "1.5em" }}>
               {entry._source.company_profile.name}
             </div>

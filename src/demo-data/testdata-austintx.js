@@ -10,11 +10,11 @@ var data = {
         "source_name": "gr",
         "investors": [],
         "company_profile": {
-          "name": "Duo Security",
+          "name": "Linkedin",
           "slug": "duo-security"
         },
         "apply": "",
-        "logo": "https://api.whoishiring.io/data/images/b17dd814dff1b1fc188fd687e410e9dc.png",
+        "logo": "https://media.glassdoor.com/sqls/34865/linkedin-squarelogo-1462308283451.png",
         "event": null,
         "category": {
           "slug": "sales",
@@ -32,7 +32,7 @@ var data = {
         "description_short": "Duo’s SE team is a makeup of customer centric engineers that love providing prospects and customers with an amazing experience. We are focused on ensu...",
         "description": "<p><span style=\"font-weight: 400;\">Duo’s SE team is a makeup of customer centric engineers that love providing prospects and customers with an amazing experience. We are focused on ensuring technical success with Duo. We work as a team to improve and strengthen our technical and sales skills. We believe in the importance of making a large impact at Duo by working closely with our customers, sales, product, engineering, R&amp;D, marketing, support and customers success teams.</span></p>\n\n<p><span style=\"font-weight: 400;\">We’re looking for a </span><strong>Channel-specific Sales Engineer </strong><span style=\"font-weight: 400;\">to support our growing partner/business development team! <br></span><strong><br></strong><strong>So what does a day in the life of a Sales Engineer at Duo look like?</strong></p>\n\n<p><span style=\"font-weight: 400;\">Expect to work hard and have fun. Duo’s SaaS security solution breaks the mold of the traditional sales model allowing us to move sales cycles at a much higher velocity.  A Channel SE will work with many, many prospects and partners  in a day providing consulting, technical training, technical implementation and demos of Duo. We partner with our Channel Account Managers  to understand and align with our partners’ needs, develop and deliver the technical enablement to partners, and consult through cutting edge security strategies. We are extremely responsive and available to ensure our prospects and partners have an amazing experience with Duo.</span></p>\n\n<p><span style=\"font-weight: 400;\">In order to be successful in this role, you must have a passion for technology and love Duo. </span></p>\n\n<p><span style=\"font-weight: 400;\">Before applying for this position, you should sign-up for Duo and try the product for yourself. We challenge you to setup RDP or SSH in under 10 minutes. Experience why Duo’s customers are so passionate about us that we’ve been called the “The Most Loved Company in Security”.</span><span style=\"font-weight: 400;\"><br></span></p>\n\n<p><strong>Sales Skills</strong></p>\n\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Ability to align partner needs and strategy with the value of Duo’s Trusted Access Vision</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Provide unbelievable product demos</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Provide incredible technical enablement and training to strategic partners</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Position Duo against competing products</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Strategically position Duo with other technologies sold by partners</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Excellent communication skills</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Work as a team with your assigned Channel Account Manager</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">3+ Years of Channel SE experience in a role supporting Enterprise software, SaaS and/or security</span><span style=\"font-weight: 400;\"><br><br></span></li>\n</ul>\n\n<p><strong>Technical Skills</strong></p>\n\n<p><span style=\"font-weight: 400;\">Network Engineering Experience</span></p>\n\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Extensive IP network troubleshooting skills including active working knowledge of tools and commands like ping, traceroute, nslookup and wireshark.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">SSLVPN configuration on devices such as Juniper, Cisco, F5, Palo Alto Networks, CheckPoint, Cisco ASA, etc.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Able to quickly diagnose network configuration issues</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Strong knowledge and understanding of Active Directory, LDAP and RADIUS authentication</span></li>\n</ul>\n\n<p><span style=\"font-weight: 400;\">Systems Engineering Experience</span></p>\n\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Has setup and configured Active Directory</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Working knowledge of LDAP with ability to troubleshoot LDAP lookup issues</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Has setup and configured Active Directory with strong knowledge of Windows Server</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Has experience working with Microsoft Exchange</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Has a working knowledge of Office 365</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Has configured and troubleshooted SAML and SSO</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Familiar with Unix and Linux, Especially SSH</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Knowledgeable with Identity/Access Management and two-factor authentication</span><span style=\"font-weight: 400;\"><br><br></span></li>\n</ul>\n\n<p><strong>Excited? We can't wait to hear from you!</strong></p>",
         "tags": [],
-        "company": "Duo Security",
+        "company": "Grammarly",
         "visa": false,
         "address": "Austin, TX",
         "salary": {
@@ -70,11 +70,11 @@ var data = {
         "source_name": "gr",
         "investors": [],
         "company_profile": {
-          "name": "Cloudflare",
+          "name": "Linkedin",
           "slug": "cloudflare"
         },
         "apply": "",
-        "logo": "https://api.whoishiring.io/data/images/b2f8c69517235df876129a5c1da58dea.png",
+        "logo": "https://media.glassdoor.com/sqls/636873/grammarly-squarelogo-1421081049379.png",
         "event": null,
         "category": {
           "slug": "programming",
@@ -98,7 +98,7 @@ var data = {
           "React",
           "PostgreSQL"
         ],
-        "company": "Cloudflare",
+        "company": "Grammarly",
         "visa": false,
         "address": "Austin, TX",
         "salary": {
@@ -130,11 +130,11 @@ var data = {
         "source_name": "gr",
         "investors": [],
         "company_profile": {
-          "name": "MongoDB",
-          "slug": "mongodb"
+          "name": "Uber",
+          "slug": "Uber"
         },
         "apply": "",
-        "logo": "https://api.whoishiring.io/data/images/6d32fe10455ebf9fd77fa69ebe9c72ba.png",
+        "logo": "https://media.glassdoor.com/sqls/575263/uber-squarelogo-1479168719438.png",
         "event": null,
         "category": {
           "slug": "sales",
@@ -142,7 +142,7 @@ var data = {
           "name": "Sales & Business Development"
         },
         "city": "Austin",
-        "title": "Sales Development Representative",
+        "title": "Senior Software Engineer",
         "id": "gr62196",
         "source": "https://www.mongodb.com/careers/job/?gh_jid=62196",
         "location": {
@@ -152,7 +152,7 @@ var data = {
         "description_short": "We're looking for talented Sales Development Representatives who will be responsible for identifying and qualifying sales opportunities in North Ameri...",
         "description": "<p>We're looking for talented Sales Development Representatives who will be responsible for identifying and qualifying sales opportunities in North America. The role focuses on identifying the business need while also conducting information-gathering to help pre-qualify opportunities for the sales organization through phone and email contact. <br> <br><strong>Responsibilities</strong></p>\n\n<ul>\n<li>Identify qualified sales opportunities in both small &amp; medium size businesses and enterprise accounts</li>\n<li>Interact with IT and business decision makers via telephone and email</li>\n<li>Update lead and prospect activity in Salesforce to ensure effective lead management</li>\n<li>Set qualified introductory meetings for the sales team</li>\n<li>Nurture early phase opportunities for future pipeline potential</li>\n<li>Exceed weekly, monthly, quarterly lead development quota</li>\n</ul>\n\n<p><strong>Requirements </strong></p>\n\n<ul>\n<li>1+ years Sales/Lead Generation experience</li>\n<li>Proven track record of achieving and exceeding measurable goals in a highly automated metrics based phone sales environment</li>\n<li>Must possess strong interpersonal and communication skills</li>\n<li>Be a team player with high energy</li>\n<li>Be self-motivated and have the ability to thrive in a result-oriented environment</li>\n<li>College degree or equivalent work experience</li>\n<li>Sales training and Salesforce.com experience a plus</li>\n</ul>",
         "tags": [],
-        "company": "MongoDB",
+        "company": "Uber",
         "visa": false,
         "address": "Austin",
         "salary": {
@@ -184,11 +184,11 @@ var data = {
         "source_name": "gr",
         "investors": [],
         "company_profile": {
-          "name": "Lush",
-          "slug": "lush"
+          "name": "Spotify",
+          "slug": "spotify"
         },
         "apply": "",
-        "logo": "https://api.whoishiring.io/data/images/67c6d18cfff526fc8e88a2e644594325.png",
+        "logo": "https://media.glassdoor.com/sqls/408251/spotify-squarelogo-1485534272928.png",
         "event": null,
         "category": {
           "slug": "sales",
@@ -196,7 +196,7 @@ var data = {
           "name": "Sales & Business Development"
         },
         "city": "Austin",
-        "title": "Seasonal Sales Ambassador - The Domain",
+        "title": "Seasonal Software Developer - The Domain",
         "id": "gr850862",
         "source": "https://boards.greenhouse.io/lush/jobs/850862",
         "location": {
@@ -238,11 +238,11 @@ var data = {
         "source_name": "gr",
         "investors": [],
         "company_profile": {
-          "name": "Duo Security",
+          "name": "Slack",
           "slug": "duo-security"
         },
         "apply": "",
-        "logo": "https://api.whoishiring.io/data/images/b17dd814dff1b1fc188fd687e410e9dc.png",
+        "logo": "https://media.glassdoor.com/sqls/950758/slack-squarelogo-1423010003177.png",
         "event": null,
         "category": {
           "slug": "sales",
@@ -260,7 +260,7 @@ var data = {
         "description_short": "We are Duo, and we’re here to democratize security for everyone. Our mission is to protect the mission of our customers like Facebook, Twitter, Kayak ...",
         "description": "<p><span style=\"font-weight: 400;\">We are Duo, and we’re here to democratize security for everyone. Our mission is to protect the mission of our customers like Facebook, Twitter, Kayak and Etsy by making security simple. </span></p>\n\n<p> </p>\n\n<p><span style=\"font-weight: 400;\">We’re a diverse crew of makers and builders, skaters and coders, filmmakers and DJs, teachers and students brought together by a shared belief in adding value to the world. This diversity allows us to bring an empathetic approach to solve some of the most complex global business and security challenges faced today.</span></p>\n\n<p><strong>What you’ll do…</strong></p>\n\n<p><span style=\"font-weight: 400;\">As a  </span><strong>Deal Desk Analyst </strong><strong> </strong><span style=\"font-weight: 400;\">you’ll be responsible for drafting non-standard Duo Sales Order Forms (OFs) that meet our internal booking and revenue recognition (GAAP) policies.  The Deal Desk Analyst will also assist AEs in structuring deals to maximize the annual contract value (ACV) for Duo.  This role will also assist with auditing and processing sales Order Forms, credit card subscription maintenance and subscription license fulfillment.   </span></p>\n\n<p> </p>\n\n<p><strong>Skills you have…</strong></p>\n\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">2+ years experience reviewing, drafting, and negotiating commercial terms for SaaS agreements and/or related Order Forms, restatements, amendments</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">High energy professional who is passionate about partnering with our sales teams to close deals for Duo</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Enjoys working in a fast growing, ever changing environment of a hyper growth technology company</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Experience in software &amp; SaaS industries a plus</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Excellent responsiveness to internal and external stakeholders</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Experience detecting revenue recognition / GAAP issues on sales orders</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Exceptional communication skills; excellent stakeholder engagement skills with Sales, Finance, and Legal</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Ability to understand how non standard Terms and Conditions impact the business and revenue recognition  </span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Experience working in a high volume order transaction processing environment and being able to deliver with a good attitude</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Ability to work independently with limited supervision</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Ability to multi-task and prioritize work</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Experience working in Salesforce.com (required)</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Experience working in Steelbrick / Salesforce CPQ (strongly desired)</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Experience working in Recurly or other credit card transaction processing software (desired but not required)</span></li>\n</ul>\n\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Proficiency in standardized software applications, such as Microsoft Office, Gmail, Google Docs, and Google Sheets</span></li>\n</ul>\n\n<p><br><br></p>\n\n<p><strong>Reasons why you should apply…</strong></p>\n\n<p><span style=\"font-weight: 400;\">You will be the Deal Desk commercial expert partnering with Duo Legal and Finance departments in support of the  sales organization to advise them on how to win the right deal for Duo.</span></p>\n\n<p> </p>\n\n<p><span style=\"font-weight: 400;\">You bring a winning “can do” attitude to work.</span></p>\n\n<p><span style=\"font-weight: 400;\">You lean into challenging situations.</span></p>\n\n<p><span style=\"font-weight: 400;\">You embrace and seek innovation.</span></p>\n\n<p><span style=\"font-weight: 400;\">You build collaborative relationships up, down, and across the organization.</span></p>\n\n<p><br><br></p>\n\n<p><strong>This job may not be for you if... </strong></p>\n\n<p><span style=\"font-weight: 400;\">You don’t thrive on a  demanding nature of working in a fast paced sales organization and engaging with many types of personalities while maintaining a positive, professional attitude and communication in all situations.</span></p>\n\n<p> </p>\n\n<p><span style=\"font-weight: 400;\">Does this sound like it was written for you? Excellent! Please apply and let’s explore this together. </span></p>",
         "tags": [],
-        "company": "Duo Security",
+        "company": "Slack",
         "visa": false,
         "address": "Austin TX ",
         "salary": {
@@ -298,11 +298,11 @@ var data = {
         "source_name": "gr",
         "investors": [],
         "company_profile": {
-          "name": "Tenfold",
+          "name": "Airbnb",
           "slug": "tenfold"
         },
         "apply": "",
-        "logo": "https://api.whoishiring.io/data/images/2585f2548678ecbe4fbbdf22ed823c7a.png",
+        "logo": "https://media.glassdoor.com/sqls/391850/airbnb-squarelogo-1459271200583.png",
         "event": null,
         "category": {
           "slug": "programming",
@@ -358,11 +358,11 @@ var data = {
         "source_name": "gr",
         "investors": [],
         "company_profile": {
-          "name": "Dropbox",
+          "name": "Twitter",
           "slug": "dropbox"
         },
         "apply": "",
-        "logo": "https://api.whoishiring.io/data/images/569087f45f1353178bd4186d4f855249.png",
+        "logo": "https://media.glassdoor.com/sqls/100569/twitter-squarelogo-1502093939446.png",
         "event": null,
         "category": {
           "slug": "sales",
@@ -418,11 +418,11 @@ var data = {
         "source_name": "gr",
         "investors": [],
         "company_profile": {
-          "name": "Kinnser Software",
+          "name": "Dropbox",
           "slug": "kinnser-software"
         },
         "apply": "",
-        "logo": "https://api.whoishiring.io/data/images/6a492e6bb714028bd1c00e665f840d21.png",
+        "logo": "https://media.glassdoor.com/sqls/415350/dropbox-squarelogo-1400485499977.png",
         "event": null,
         "category": {
           "slug": "programming",
