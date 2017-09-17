@@ -72,7 +72,7 @@ const Map = (props) => {
     
     console.log(home);
     if(home) {
-        routeToWork(home, location[2]);
+        routeToWork(home, location[3]);
     }
     // jobSearch(10.0, 11.00, 20.0, 22.00, ['qa'], 'Bobby');
 

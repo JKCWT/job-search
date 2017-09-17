@@ -5,22 +5,40 @@ const MapResult = (props) => {
   // Need to replace with search location or default user location
   const location = [
     {
-      street: '231',
-      city: 'Millbrae',
+      street: '222 2nd St',
+      city: 'San Francisco',
       state: 'CA',
-      postalCode: '94030'
+      postalCode: '94105'
     },
     {
-      street: '950 Elm Ave',
-      city: 'San Bruno',
+      street: '548 Market St',
+      city: 'San Francisco',
       state: 'CA',
-      postalCode: '94066'
+      postalCode: '94104'
     },
     {
-      street: '600 W California Ave',
-      city: 'Sunnyvale',
+      street: '1455 Market St',
+      city: 'San Francisco',
       state: 'CA',
-      postalCode: '94086'
+      postalCode: '94103'
+    },
+    {
+      street: '988 Market St',
+      city: 'San Francisco',
+      state: 'CA',
+      postalCode: '94102'
+    },
+    {
+      street: '155 5th St',
+      city: 'San Francisco',
+      state: 'CA',
+      postalCode: '94103'
+    },
+    {
+      street: '888 Brannan St',
+      city: 'San Francisco',
+      state: 'CA',
+      postalCode: '94103'
     }
   ];
   const style = {
