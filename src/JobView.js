@@ -14,19 +14,7 @@ class JobView extends Component {
     });
   };
 
-  handleChange = event => {
-    this.setState({
-      currentValue: event.target.value
-    });
-  };
-
-  handleSubmit = event => {
-    event.preventDefault();
-    // pass home address to update map route
-  };
-
   render() {
-    console.log(this.state.currentValue);
     const companyFont = {
       padding: "10px 20px",
       fontWeight: !this.state.jobPostView ? "bold" : "normal",
@@ -96,8 +84,8 @@ class JobView extends Component {
             </div>
             <RouteCommute
               currentValue={this.state.currentValue}
-              handleSubmit={this.handleSubmit}
-              handleChange={this.handleChange}
+              handleSubmit={this.props.handleSubmit}
+              handleChange={this.props.handleChange}
             />
             <div
               style={{
