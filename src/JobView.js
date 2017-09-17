@@ -14,19 +14,7 @@ class JobView extends Component {
     });
   };
 
-  handleChange = event => {
-    this.setState({
-      currentValue: event.target.value
-    });
-  };
-
-  handleSubmit = event => {
-    event.preventDefault();
-    // pass home address to update map route
-  };
-
   render() {
-    console.log(this.state.currentValue);
     const companyFont = {
       padding: "10px 20px",
       fontWeight: !this.state.jobPostView ? "bold" : "normal",
@@ -75,7 +63,11 @@ class JobView extends Component {
             />
             <button onClick={() => this.refs.simpleDialog.show()}>Apply for Job Post</button>
             <SkyLight dialogStyles={modal} hideOnOverlayClicked ref="simpleDialog">
-              <iframe style={{ width: "100%", height: "95%", overflow: "scroll" }} src={"http://localhost:3000/"} />
+              <iframe 
+                style={{ width: "100%", height: "95%", overflow: "scroll" }} 
+                frameBorder="0"
+                src={"http://localhost:3000/index.html?username=Y2luZHkwMDc&curNode=job-center"} 
+              />
             </SkyLight>
           </div>
         ) : (
@@ -92,8 +84,8 @@ class JobView extends Component {
             </div>
             <RouteCommute
               currentValue={this.state.currentValue}
-              handleSubmit={this.handleSubmit}
-              handleChange={this.handleChange}
+              handleSubmit={this.props.handleSubmit}
+              handleChange={this.props.handleChange}
             />
             <div
               style={{
