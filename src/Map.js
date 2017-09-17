@@ -1,4 +1,5 @@
 import React from "react";
+import mapKey from "./keys";
 
 const Map = (props) => {
     const L = window.L;
@@ -16,7 +17,7 @@ const Map = (props) => {
         height: "530px"
     };
 
-    L.mapquest.key = 'sBAF4sEAdHGbfsOHylKHdb7kpAY8mfF1';
+    L.mapquest.key = mapKey;
 
     L.mapquest.geocoding().geocode({
         postalCode: '94030'
