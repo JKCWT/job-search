@@ -18,12 +18,12 @@ class JobView extends Component {
     const companyFont = {
       padding: "10px 20px",
       fontWeight: !this.state.jobPostView ? "bold" : "normal",
-      borderBottom: !this.state.jobPostView ? "1px solid cadetblue" : "none"
+      borderBottom: !this.state.jobPostView ? "1px solid #2977a7" : "none"
     };
     const jobFont = {
       padding: "10px",
       fontWeight: this.state.jobPostView ? "bold" : "normal",
-      borderBottom: this.state.jobPostView ? "1px solid cadetblue" : "none"
+      borderBottom: this.state.jobPostView ? "1px solid #2977a7" : "none"
     };
     const modal = {
       height: "550px",
@@ -86,7 +86,7 @@ class JobView extends Component {
           <div style={{ padding: "20px" }}>
             <div
               style={{
-                color: "cadetblue",
+                color: "#2977a7",
                 padding: "3px",
                 fontSize: "1.2em",
                 fontWeight: "bold",
@@ -103,7 +103,7 @@ class JobView extends Component {
             <div>
               <div
                 style={{
-                  color: "cadetblue",
+                  color: "#2977a7",
                   padding: "3px",
                   fontSize: "1.2em",
                   fontWeight: "bold",
@@ -125,7 +125,7 @@ class JobView extends Component {
                     width: "40%",
                     border: "1px solid #ccc",
                     borderRadius: "20px",
-                    color: "cadetblue",
+                    color: "#2977a7",
                     fontSize: "1.5em",
                     display: "flex",
                     justifyContent: "space-between",
@@ -141,7 +141,7 @@ class JobView extends Component {
                     width: "40%",
                     border: "1px solid #ccc",
                     borderRadius: "20px",
-                    color: "cadetblue",
+                    color: "#2977a7",
                     fontSize: "1.5em",
                     display: "flex",
                     justifyContent: "space-between",
@@ -157,7 +157,7 @@ class JobView extends Component {
                     width: "40%",
                     border: "1px solid #ccc",
                     borderRadius: "20px",
-                    color: "cadetblue",
+                    color: "#2977a7",
                     fontSize: "1.5em",
                     display: "flex",
                     justifyContent: "space-between",
@@ -172,7 +172,7 @@ class JobView extends Component {
                     width: "40%",
                     border: "1px solid #ccc",
                     borderRadius: "20px",
-                    color: "cadetblue",
+                    color: "#2977a7",
                     fontSize: "1.5em",
                     display: "flex",
                     justifyContent: "space-between",
@@ -187,7 +187,7 @@ class JobView extends Component {
             <div>
               <div
                 style={{
-                  color: "cadetblue",
+                  color: "#2977a7",
                   padding: "3px",
                   fontSize: "1.2em",
                   fontWeight: "bold",
@@ -198,27 +198,27 @@ class JobView extends Component {
               </div>
               <div style={{ textAlign: "center" }}>
                 <i
-                  style={{ color: "cadetblue", fontSize: "3em" }}
+                  style={{ color: "#2977a7", fontSize: "3em" }}
                   className="fa fa-star"
                   aria-hidden="true"
                 />
                 <i
-                  style={{ color: "cadetblue", fontSize: "3em" }}
+                  style={{ color: "#2977a7", fontSize: "3em" }}
                   className="fa fa-star"
                   aria-hidden="true"
                 />
                 <i
-                  style={{ color: "cadetblue", fontSize: "3em" }}
+                  style={{ color: "#2977a7", fontSize: "3em" }}
                   className="fa fa-star"
                   aria-hidden="true"
                 />
                 <i
-                  style={{ color: "cadetblue", fontSize: "3em" }}
+                  style={{ color: "#2977a7", fontSize: "3em" }}
                   className="fa fa-star-half-o"
                   aria-hidden="true"
                 />
                 <i
-                  style={{ color: "cadetblue", fontSize: "3em" }}
+                  style={{ color: "#2977a7", fontSize: "3em" }}
                   className="fa fa-star-o"
                   aria-hidden="true"
                 />
@@ -227,7 +227,7 @@ class JobView extends Component {
             <div>
               <div
                 style={{
-                  color: "cadetblue",
+                  color: "#2977a7",
                   padding: "3px",
                   fontSize: "1.2em",
                   fontWeight: "bold",

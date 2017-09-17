@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-  color: cadetblue;
+  color: #2977a7;
   font-size: 2.5em;
   padding: 0.2em 0.5em;
 }
@@ -41,7 +41,7 @@ button {
   height: 30px;
   border: none;
   border-radius: 5px;
-  background-color: cadetblue;
+  background-color: #2977a7;
   font-size: 1.2em;
   color: #fff;
   margin: 5px;
