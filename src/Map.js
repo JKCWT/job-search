@@ -1,5 +1,6 @@
 import React from "react";
 import mapKey from "./keys";
+import jobSearch from "./PositionSearch";
 
 const Map = (props) => {
     const {
@@ -66,6 +67,7 @@ const Map = (props) => {
         start: location[0],
         end: location[1]
     });
+    jobSearch(10.0, 11.00, 20.0, 22.00, ['qa'], 'Bobby');
 
     return(
         <div

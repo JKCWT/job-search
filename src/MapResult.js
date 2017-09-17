@@ -23,8 +23,11 @@ const MapResult = (props) => {
       postalCode: '94086'
     }
   ];
+  const style = {
+    "z-index": 0
+  };
   return(
-    <div className="map-result">
+    <div className="map-result" style={style}>
       <Map
         location={location} />
     </div>
